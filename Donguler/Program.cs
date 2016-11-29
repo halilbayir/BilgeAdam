@@ -35,17 +35,39 @@ namespace Donguler
 
             #region Faktoriyel [5! bul]
 
-            int n = 5, fakto = 1, counter = 1;
+            //int n = 5, fakto = 1, counter = 1;
 
-            
 
-            while (counter <= n)
-            {
-                fakto *= counter;
-                counter++;
-            }
-            Console.WriteLine(fakto);
-            Console.ReadLine();
+
+            //while (counter <= n)
+            //{
+            //    fakto *= counter;
+            //    counter++;
+            //}
+            //Console.WriteLine(fakto);
+            //Console.ReadLine();
+            #endregion
+
+            #region Random sayı tahmini
+            //Console.WriteLine("1-10 arasında bir sayı tuttum tahmin et:\t");
+            //Random rnd = new Random();
+            //int rastgaleSayi = rnd.Next(1, 11);
+            //int tahmin=0,sayac=0;
+
+            //while (true)
+            //{
+
+            //    sayac++;
+            //    Console.WriteLine("Tahmin:");
+            //    tahmin = Convert.ToInt32(Console.ReadLine());
+                
+            //    if(tahmin==rastgaleSayi)
+            //    { break; }
+
+            //}
+            //Console.WriteLine("{0} adımda bildin",sayac);
+            //Console.ReadLine();
+
             #endregion
 
 
