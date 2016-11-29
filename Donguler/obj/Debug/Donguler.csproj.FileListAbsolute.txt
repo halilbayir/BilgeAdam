@@ -1,0 +1,6 @@
+C:\Users\halil.bayir\Source\Repos\BilgeAdam\Donguler\bin\Debug\Donguler.exe.config
+C:\Users\halil.bayir\Source\Repos\BilgeAdam\Donguler\bin\Debug\Donguler.exe
+C:\Users\halil.bayir\Source\Repos\BilgeAdam\Donguler\bin\Debug\Donguler.pdb
+C:\Users\halil.bayir\Source\Repos\BilgeAdam\Donguler\obj\Debug\Donguler.csprojResolveAssemblyReference.cache
+C:\Users\halil.bayir\Source\Repos\BilgeAdam\Donguler\obj\Debug\Donguler.exe
+C:\Users\halil.bayir\Source\Repos\BilgeAdam\Donguler\obj\Debug\Donguler.pdb
