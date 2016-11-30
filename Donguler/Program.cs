@@ -60,7 +60,7 @@ namespace Donguler
             //    sayac++;
             //    Console.WriteLine("Tahmin:");
             //    tahmin = Convert.ToInt32(Console.ReadLine());
-                
+
             //    if(tahmin==rastgaleSayi)
             //    { break; }
 
@@ -70,6 +70,11 @@ namespace Donguler
 
             #endregion
 
+            #region KullaniciİstedigiSureceDevamEt
+
+
+
+            #endregion
 
         }
     }
