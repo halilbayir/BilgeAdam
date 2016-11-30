@@ -70,12 +70,103 @@ namespace Donguler
 
             #endregion
 
-            #region KullaniciİstedigiSureceDevamEt
+            #region 1-100 arası sayı bulup tahmin etme
 
+            //Console.WriteLine("1-100 arasında bir sayı tuttum tahmin et:\t");
+            //Random rnd = new Random();
+            //int rastgaleSayi = rnd.Next(1, 101);
+            //int tahmin = 0, sayac = 0;
 
+            //while (true)
+            //{
+
+            //    sayac++;
+            //    Console.WriteLine("Tahmin:");
+            //    tahmin = Convert.ToInt32(Console.ReadLine());
+
+            //    if (tahmin < rastgaleSayi)
+            //    {
+            //        Console.WriteLine("Daha büyük");
+            //    }
+            //    else if (tahmin > rastgaleSayi)
+            //    {
+            //        Console.WriteLine("Daha küçük");
+            //    }
+            //    else
+            //    {
+            //        break;
+            //    }
+            //}
+            //Console.WriteLine("Tebrikler Buldun\n");
+            //Console.WriteLine("{0} adımda bildin", sayac);
+            //Console.ReadLine();
 
             #endregion
 
+            #region 1-100e kadar tek sayıların toplamı
+
+            //int i,toplam = 0;
+            //int sum = 1;
+            //string tercih = Convert.ToString(Console.ReadLine());
+
+            //if (tercih == "topla")
+            //{
+            //    for (i = 1; i < 100; i++)
+            //    {
+            //        toplam += i;
+            //    }
+            //    Console.WriteLine("Toplam={0}\t", toplam);
+            //}
+
+            //else if (tercih == "carp")
+            //{
+
+            //    for (i = 1; i < 100; i++)
+            //    {
+
+            //        sum *= i;
+            //    }
+            //    Console.WriteLine("sum={0}\t", sum);
+            //}
+            //else Console.WriteLine("yanlıs giris");
+
+            //Console.ReadLine();
+
+            //--------------------------------------------------
+
+            //long toplam = 0, carpim = 1;
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //string secim = Console.ReadLine();
+
+            //int counter = 1;
+
+            //while(counter<=n)
+            //{
+            //    if (counter % 2 == 1)
+            //    {
+            //        toplam += counter;
+            //        carpim *= counter;
+            //    }
+            //    counter++;
+            //}
+
+            //if (secim == "topla")
+            //{
+            //    Console.WriteLine("{0}a kadar tek sayıların toplamı={1}",n,toplam);
+            //}
+            //else if(secim=="carpim")
+            //{
+            //    Console.WriteLine("{0}a kadar tek sayıların carpimi={1}", n, carpim);
+            //}
+
+            //#endregion
+
+            //else
+            //{
+            //    Console.WriteLine(secim+"   ne??");
+            //}
+            //Console.ReadKey();
+            #endregion
         }
     }
 }
