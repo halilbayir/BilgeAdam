@@ -167,6 +167,94 @@ namespace Donguler
             //}
             //Console.ReadKey();
             #endregion
+            #region for donguleri
+
+            //************************for döngüleri
+            //int length = 10;
+            //int fakto = 1;
+            //for (int i = 0; i < length; i++)
+            //{
+            //    fakto *= i;
+            //}
+            //Console.WriteLine(fakto);
+            //Console.ReadLine();
+            #endregion
+
+            #region For icin birden fazla kontrol
+            //bool durum = true;
+            //for (int i = 0; durum==true&& i < 100; i++)
+            //{
+            //    if (i * 2 > 20) { durum = false; }
+            //   else  Console.WriteLine("{0} iken devam ediyorum",i);
+            //}
+            //Console.Read();
+            #endregion
+
+            #region break&continue
+
+            //for (int i = 0; i < 100; i=i+5)
+            //{
+            //    if (i * 2 < 20)
+            //    {
+            //        //break; döngüyü direk sonlandırır ve donguden cıkar
+            //        //continue; bir sonraki değere geçirir. yani 0 oluyorsa atlar 1 olursa atla 2 olursa iften çıkar 0 ve 1 işlemlerinde fora geri döner
+            //        continue;
+            //    }
+            //    Console.WriteLine("{0} iken devam ediyorum!",i);
+            //}
+            //Console.ReadKey();
+            #endregion
+
+            #region [1,n} aralığındaki sayıların toplamı
+
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int toplam = 0;
+
+            //for (int i = 0; i <= n; i++)
+            //{
+            //    toplam += i;
+            //}
+            //Console.WriteLine("1den {1} kadar olan sayıların TOPLAMI = {0}",toplam,n);
+            //Console.ReadLine();
+
+            #endregion
+
+            #region iç içe for
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    for (int j = 0; j < 5; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine("\n");
+            //}
+            //Console.ReadLine();
+
+            #endregion
+
+            #region a-z ye kadar yaz
+
+            //for (char c='a'; c <='z';  c++)
+            //{
+            //    Console.WriteLine(c);
+            //}
+            //Console.ReadLine();
+            #endregion
+
+            #region Carpim tablosu
+
+            //for (int i = 1; i < 10; i++)
+            //{
+            //    for (int j = 0; j <=10; j++)
+            //    {
+            //        Console.WriteLine("{0} x {1} = \t {2}",i,j,i*j);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.ReadLine();
+
+            #endregion
         }
     }
 }
