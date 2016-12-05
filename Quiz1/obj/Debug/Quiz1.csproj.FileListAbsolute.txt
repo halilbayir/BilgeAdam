@@ -1,0 +1,6 @@
+C:\Users\halil.bayir\Source\Repos\BilgeAdam\Quiz1\bin\Debug\Quiz1.exe.config
+C:\Users\halil.bayir\Source\Repos\BilgeAdam\Quiz1\bin\Debug\Quiz1.exe
+C:\Users\halil.bayir\Source\Repos\BilgeAdam\Quiz1\bin\Debug\Quiz1.pdb
+C:\Users\halil.bayir\Source\Repos\BilgeAdam\Quiz1\obj\Debug\Quiz1.csprojResolveAssemblyReference.cache
+C:\Users\halil.bayir\Source\Repos\BilgeAdam\Quiz1\obj\Debug\Quiz1.exe
+C:\Users\halil.bayir\Source\Repos\BilgeAdam\Quiz1\obj\Debug\Quiz1.pdb
