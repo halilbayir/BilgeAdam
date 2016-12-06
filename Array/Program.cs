@@ -12,35 +12,35 @@ namespace Array
         {
 
             #region  array ile ogrenci sayisina göre öğrencileri girme
-            //int[] array = new int[3];
+            int[] array = new int[3];
 
-            //for (int i = 0; i < array.Length; i++)
-            //{
-            //    array[i] = i;
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = i;
 
-            //}
-            //for (int i = 0; i < array.Length; i++)
-            //{
-            //    Console.WriteLine(array[i]);
-            //}
-            //Console.Read();
+            }
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
+            Console.Read();
 
-            //Console.Write("Sınıf Mevcudu :");
-            //int mevcut = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Sınıf Mevcudu :");
+            int mevcut = Convert.ToInt32(Console.ReadLine());
 
-            //string[] ogrenciler = new string[mevcut];
+            string[] ogrenciler = new string[mevcut];
 
-            //for (int i = 0; i < ogrenciler.Length; i++)
-            //{
-            //    Console.WriteLine("{0}. Ogrencinin ismi :",i);
-            //    ogrenciler[i] = Console.ReadLine();
-            //}
-            //Console.WriteLine("Ogrenciler :\t\n");
-            //foreach (var item in ogrenciler)
-            //{
-            //    Console.WriteLine(item);
-            //}
-            //Console.ReadLine();
+            for (int i = 0; i < ogrenciler.Length; i++)
+            {
+                Console.WriteLine("{0}. Ogrencinin ismi :", i);
+                ogrenciler[i] = Console.ReadLine();
+            }
+            Console.WriteLine("Ogrenciler :\t\n");
+            foreach (var item in ogrenciler)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
             #endregion
 
             #region -100 100 arasında random sayılardan negatif pozitif ve sıfırları bulma
@@ -62,11 +62,11 @@ namespace Array
             //{
             //    Console.WriteLine(sayi);
 
-            //    if (sayi>0)
+            //    if (sayi > 0)
             //    {
             //        pozitif++;
             //    }
-            //    else if (sayi<0)
+            //    else if (sayi < 0)
             //    {
             //        negatif++;
             //    }
@@ -76,15 +76,15 @@ namespace Array
             //    }
             //}
             //Console.WriteLine();
-            //Console.WriteLine("{0} tane pozitif var",pozitif);
-            //Console.WriteLine("{0} tane negetaif var",negatif);
+            //Console.WriteLine("{0} tane pozitif var", pozitif);
+            //Console.WriteLine("{0} tane negetaif var", negatif);
             //Console.WriteLine("{0} tane sıfır var", sifir);
             //Console.Read();
 
 
             #endregion
 
-            #region birdiziye nasıl veri ekleriz
+            #region sayı seçicek o sayıya karşılık gelen günü vercek ve sürekli sorabilcek
 
             //string[] gunler = new string[] { "Pazartesi", "Sali", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar" };
 
@@ -92,19 +92,56 @@ namespace Array
             //{
             //    Console.WriteLine(gunler);
             //}
+
+            //Console.WriteLine("Hangi Günü seçiyorsunuz");
+            //int n = Convert.ToInt32(Console.ReadLine());
+
+            //string[] gunler = new string[] { "Pazartesi", "Sali", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar" };
+            //bool devam = true;
+            //while (devam)
+            //{
+            //    Console.WriteLine("Kaçıncı gün:");
+            //    byte gun = Convert.ToByte(Console.ReadLine());
+
+            //    if (gun <= 7 && gun >= 1)
+            //    {
+            //        Console.WriteLine(gunler[gun - 1]);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("{0}. gün yok ama bir isim bul ekleyim :", gun);
+            //    }
+            //    Console.WriteLine("\n Devam etmek istiyorsan \"e\" tuşuna bas");
+            //    char c = Convert.ToChar(Console.ReadLine());
+            //    if (c == 'e')
+            //    {
+            //        devam = true;
+            //        Console.Clear();
+            //    }
+            //    else
+            //    {
+            //        devam = false;
+            //    }
+            //}
+
             #endregion
 
+            #region 2boyutlu arrayler
 
-            //ödevb
+            //int[,] sinavlar = new int[2, 3];
+            //sinavlar[0, 0] = 1;
+            //sinavlar[0, 1] = 2;
+            //sinavlar[0, 2] = 3;
+            //sinavlar[1, 0] = 10;
+            //sinavlar[1, 1] = 20;
+            //sinavlar[1, 2] = 30;
 
-            #region sayı seçicek o sayıya karşılık gelen günü vercek ve sürekli sorabilcek
-            Console.WriteLine("Hangi Günü seçiyorsunuz");
-            int n = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine(sinavlar[0, i] + "  -  " + sinavlar[1, i]);
+            //}
 
-            string[] gunler = new string[7];
             #endregion
-
-
         }
     }
 }
