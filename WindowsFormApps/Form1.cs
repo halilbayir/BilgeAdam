@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace WindowsFormApps
 {
-    public partial class Form1 : Form
+    public partial class ilkForm : Form
     {
-        public Form1()
+        public ilkForm()
         {
             InitializeComponent();
+        }
+
+        private void ilkForm_Load(object sender, EventArgs e)
+        {
+            //MessageBox.Show("Hellow izmir");
+        }
+
+        private void KaydetBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Ad:\t" + AdTxtBox.Text + "\nSifre :\t"+ SifreTxtBox.Text);
         }
     }
 }
