@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -96,20 +97,66 @@ namespace List
             //}
             #endregion
 
-            List <int> numbers = new List<int>();
-            numbers.Add(3);
-            numbers.Add(5);
-            numbers.AddRange(new int[] { 8, 10, 13, 3, 11 });
+            //List <int> numbers = new List<int>();
+            //numbers.Add(3);
+            //numbers.Add(5);
+            //numbers.AddRange(new int[] { 8, 10, 13, 3, 11 });
 
-            //var result = numbers.Find(i => i > 5); //5 ten büyük ilk değer döner
+            ////var result = numbers.Find(i => i > 5); //5 ten büyük ilk değer döner
 
-            //var result = numbers.FindAll(i => i > 5); //5 ten büyük bütün değerleri döner
+            ////var result = numbers.FindAll(i => i > 5); //5 ten büyük bütün değerleri döner
 
-            var result = numbers.FindAll(i => i > 5).Count(); //5ten büyük bütün sayıların kaçtane olduğunu döner --LİNQ SORGUSU
+            //var result = numbers.FindAll(i => i > 5).Count(); //5ten büyük bütün sayıların kaçtane olduğunu döner --LİNQ SORGUSU
 
-            Console.WriteLine(result);
-            numbers.Sort(); //küçükten büyüğe sıralar
-            numbers.Reverse();//büyükten küçüğe sıralar
+            //Console.WriteLine(result);
+            //numbers.Sort(); //küçükten büyüğe sıralar
+            //numbers.Reverse();//büyükten küçüğe sıralar
+
+
+            #region alfabeyiListedentersten yazdırmak
+            //List<char> alfabe = new List<char>() { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'j', 'k', 'l', 'm', 'n', 'o', 'u', 'p', 'r', 's', 't', 'u', 'v', 'y', 'z' };
+
+            //alfabe.Sort();
+            //alfabe.Reverse();
+            //foreach (var item in alfabe)
+            //{
+            //    Console.Write(item + " ");
+            //}
+            //Console.ReadLine();
+
+            //bu yol daha basit
+            //List<char> alfabe = new List<char>();
+            //for (char i= 'a'; i <= 'z'; i++)
+            //{
+            //    alfabe.Add(i);
+            //}
+
+            //alfabe.Reverse();
+
+            //foreach (var item in alfabe)
+            //{
+            //    Console.WriteLine(item+" ");
+            //}
+
+            //Console.ReadLine();
+
+            #endregion
+
+            #region isimleriAlfabetik sıralama
+
+            //List<string> isimler = new List<string>();
+            //isimler.Add("Hakan");
+            //isimler.AddRange(new string[] {"Irfan","Atakan","Aytekin","Cemal","Merve"});
+            //isimler.Sort();// alfabetik sıraya göre sıralar
+            //isimler.Reverse();//listedeki sırasına göre tersten yazar
+            //foreach (var item in isimler)
+            //{
+            //    Console.WriteLine("\t"+item);
+            //}
+
+            //Console.Read();
+
+            #endregion
         }
 
     }
