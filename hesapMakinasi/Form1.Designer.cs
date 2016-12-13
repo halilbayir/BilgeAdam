@@ -43,7 +43,7 @@
             this.bolme = new System.Windows.Forms.Button();
             this.esittir = new System.Windows.Forms.Button();
             this.carpma = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -154,7 +154,7 @@
             this.toplama.TabIndex = 10;
             this.toplama.Text = "+";
             this.toplama.UseVisualStyleBackColor = true;
-            this.toplama.Click += new System.EventHandler(this.button_Click);
+            this.toplama.Click += new System.EventHandler(this.button_islem);
             // 
             // cikarma
             // 
@@ -164,7 +164,7 @@
             this.cikarma.TabIndex = 11;
             this.cikarma.Text = "-";
             this.cikarma.UseVisualStyleBackColor = true;
-            this.cikarma.Click += new System.EventHandler(this.button_Click);
+            this.cikarma.Click += new System.EventHandler(this.button_islem);
             // 
             // bolme
             // 
@@ -174,7 +174,7 @@
             this.bolme.TabIndex = 12;
             this.bolme.Text = "/";
             this.bolme.UseVisualStyleBackColor = true;
-            this.bolme.Click += new System.EventHandler(this.button_Click);
+            this.bolme.Click += new System.EventHandler(this.button_islem);
             // 
             // esittir
             // 
@@ -184,7 +184,7 @@
             this.esittir.TabIndex = 13;
             this.esittir.Text = "=";
             this.esittir.UseVisualStyleBackColor = true;
-            this.esittir.Click += new System.EventHandler(this.button_Click);
+            this.esittir.Click += new System.EventHandler(this.button_esittir);
             // 
             // carpma
             // 
@@ -194,23 +194,21 @@
             this.carpma.TabIndex = 14;
             this.carpma.Text = "*";
             this.carpma.UseVisualStyleBackColor = true;
-            this.carpma.Click += new System.EventHandler(this.button_Click);
+            this.carpma.Click += new System.EventHandler(this.button_islem);
             // 
-            // listBox1
+            // textBox1
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(175, 56);
-            this.listBox1.TabIndex = 15;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.textBox1.Location = new System.Drawing.Point(12, 23);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(193, 20);
+            this.textBox1.TabIndex = 15;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(217, 261);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.carpma);
             this.Controls.Add(this.esittir);
             this.Controls.Add(this.bolme);
@@ -230,6 +228,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -250,7 +249,7 @@
         private System.Windows.Forms.Button bolme;
         private System.Windows.Forms.Button esittir;
         private System.Windows.Forms.Button carpma;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
