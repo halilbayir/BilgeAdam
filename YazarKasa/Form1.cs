@@ -27,7 +27,11 @@ namespace YazarKasa
         private void ButtonClick(object sender, EventArgs e)
         {
             Button secilenbuton = sender as Button;
-            this.BackColor = secilenbuton.BackColor;
+            secilenbuton.BackColor = Color.Red;
+            Form2 form = new Form2();
+            form.Show();
+            this.Hide();
+            
         }
 
         private void cmbSec_SelectedIndexChanged(object sender, EventArgs e)
@@ -43,7 +47,7 @@ namespace YazarKasa
                         {
                             Button button = new Button();
                             button.Click += ButtonClick;
-                           
+
 
 
                             button.Width = 30;
@@ -51,6 +55,7 @@ namespace YazarKasa
                             button.Left = button.Width * j;
                             button.Top = button.Width * i;
                             this.Controls.Add(button);
+
                         }
                     }
                 }
@@ -81,5 +86,6 @@ namespace YazarKasa
 
             }
         }
+        
     }
 }

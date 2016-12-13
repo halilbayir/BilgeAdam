@@ -17,10 +17,27 @@ namespace YazarKasa
             InitializeComponent();
         }
 
-        string yolcuIsim = "";
+       
+
         private void Form2_Load(object sender, EventArgs e)
         {
-            label1.Text = yolcuIsim;
+           
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+        
+        private void btnEkle_Click(object sender, EventArgs e)
+        {
+            Form3 form = new Form3();
+            form.soyisim= txtIsim.Text;
+            form.isim=txtSoyisim.Text;
+            form.Show();
+            this.Hide();
+
+
         }
     }
 }
